@@ -1,5 +1,6 @@
 .peculiarities__item-description_comment {
     margin-bottom: 30px;
+    padding-bottom: 0;
 }
 
 @media (max-width:1024px) {
@@ -11,5 +12,6 @@
 @media (max-width: 850px) {
     .peculiarities__item-description_comment {
         margin-bottom: 15px; 
+        padding-bottom: 0;
     }
 }

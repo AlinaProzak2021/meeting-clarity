@@ -6,6 +6,7 @@
     line-height: 26px;
     color: var(--font-color-variant-3);
     text-align: left;
+    padding-bottom: 60px;
 }
 
 .peculiarities__item:nth-child(2)>.peculiarities__text-container>.peculiarities__item-description {
