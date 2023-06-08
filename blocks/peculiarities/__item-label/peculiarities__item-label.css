@@ -17,3 +17,20 @@
     top: -10px;
     z-index: -2;
 }
+
+@media (max-width: 1024px) {
+    .peculiarities__item-label {
+        padding-left: 50px;
+        padding-right: 50px;
+        top: -6px;
+        left: 82px;
+    }
+}
+
+@media (max-width: 768px) {
+    .peculiarities__item-label {
+        padding-left: 30px;
+        padding-right: 30px;
+        left: 62px;
+    }
+}

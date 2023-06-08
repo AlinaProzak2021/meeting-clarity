@@ -13,3 +13,26 @@
 .peculiarities__item:nth-child(1)>.peculiarities__text-container>.peculiarities__item-title {
     margin-bottom: 10px;
 }
+
+@media (max-width: 1024px) {
+    .peculiarities__item:nth-child(1)>.peculiarities__text-container>.peculiarities__item-title {
+        margin-bottom: 5px;
+        padding-top: 80px;
+    }
+
+    .peculiarities__item-title {
+        padding-top: 65px;
+    }
+}
+
+@media (max-width: 850px) {
+    .peculiarities__item-title {
+        margin-bottom: 25px;
+    }
+}
+
+@media (max-width: 768px) {
+    .peculiarities__item:nth-child(1)>.peculiarities__text-container>.peculiarities__item-title {
+        padding-top: 50px;
+    }
+}

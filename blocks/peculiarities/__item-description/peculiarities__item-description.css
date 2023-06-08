@@ -15,3 +15,19 @@
 .peculiarities__item:nth-child(3)>.peculiarities__text-container>.peculiarities__item-description {
     max-width: 750px;
 }
+
+@media (max-width: 1024px) {
+    .peculiarities__item-description {
+        line-height: 22px;
+    }
+
+    .peculiarities__item:nth-child(3)>.peculiarities__text-container>.peculiarities__item-description {
+        max-width: 688px;
+    }
+}
+
+@media (max-width:768px) {
+    .peculiarities__item:nth-child(1)>.peculiarities__text-container>.peculiarities__item-description {
+        max-width: 540px;
+    }
+}
