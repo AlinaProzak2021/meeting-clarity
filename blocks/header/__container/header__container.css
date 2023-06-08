@@ -1,0 +1,8 @@
+.header__container {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    height: 115px;
+    position: relative;
+    z-index: 50;
+}

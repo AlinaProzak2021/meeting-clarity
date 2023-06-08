@@ -1,0 +1,28 @@
+.main-info__content {
+    display: flex;
+    flex-direction: column;
+    max-width: var(--main-info-content-width);
+    padding-bottom: 114px;
+}
+
+@media (max-width: 1024px) {
+    .main-info__content {
+        padding-bottom: 70px;
+    }
+
+}
+
+@media (max-width: 768px) {
+    .main-info__content {
+        padding-bottom: 55px;
+    }
+}
+
+@media (max-width: 450px) {
+    .main-info__content {
+        align-items: center;
+        padding-bottom: 40px;
+
+    }
+
+}

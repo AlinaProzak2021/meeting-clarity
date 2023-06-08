@@ -1,0 +1,32 @@
+.main-info__desctiption {
+    font-family: var(--font-family-standart-variant-1);
+    font-style: normal;
+    font-weight: var(--font-weight-semibold);
+    font-size: var(--font-size-small-variant-2);
+    line-height: 140.68%;
+    text-align: left;
+    color: #282828;
+    max-width: var(--main-info-description-width);
+    text-shadow: 0px 2px 6px rgba(0, 0, 0, 0.4);
+    margin-bottom: 27px;
+}
+
+.main-info__desctiption>span {
+    font-weight: 700;
+}
+
+
+@media (max-width: 768px) {
+    .main-info__desctiption {
+        margin-bottom: 10px;
+    }
+
+}
+
+@media (max-width: 450px) {
+    .main-info__desctiption {
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+}

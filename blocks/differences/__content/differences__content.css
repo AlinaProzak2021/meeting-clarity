@@ -1,0 +1,12 @@
+.differences__content{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+@media (max-width: 635px) {
+    .differences__content{
+        flex-direction: column-reverse;
+         align-items: center;
+    }
+}
